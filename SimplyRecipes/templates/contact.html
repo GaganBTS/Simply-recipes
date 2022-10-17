@@ -1,0 +1,38 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block title%}Contact Us{%endblock%}
+{%block content%}
+<main class="page">
+    <section class="contact-container">
+         <article class="contact-info">
+           <h3>Want To Get In Touch?</h3>
+           <p>
+             Want to share your recipe or give feedback to us? Just send us a message.
+           </p>
+           <p>We'd be delighted to read your feedback.</p>
+           <p style="font-size: 1.2rem;">Mail us at <span><a href="mailto:hpks2000@gmail.com">hpks2000@gmail.com</a></span></p>
+       
+         </article>
+   
+       </section>
+       <section class="featured-recipes">
+        <h5 class="featured-title">Look At These awesome recipes!</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          {%for r in recipes%}
+          <a href="{% url 'single_recipe' r.slug %}" class="recipe">
+            <img
+              src="{%static 'images/'|add:r.image%}"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>{{r.name}}</h5>
+            <p>Prep : {{r.preptime}} | Cook : {{r.cooktime}}</p>
+          </a>
+          {%endfor%}
+          <!-- end of single recipe -->
+          
+        </div>
+      </section>
+    </main>
+{%endblock%}
