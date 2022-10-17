@@ -102,7 +102,7 @@ def recipes():
                      'Usually I wrap a medium sized plate with aluminium foil and then keep the cake on it. This make the frosting work easier.',
                      'Keep the chocolate cake covered in the fridge for the frosting to set for a couple of hours. You can use a dome shaped bowl to cover the cake. Make sure the there is enough space between the cake and the bowl which you are using for covering the cake.',
                      'Slice and serve eggless chocolate cake as a sweet dessert.'],
-            'image':'eggles-chcocolate-cake.jpg'
+            'image':'eggles-chocolate-cake.jpg'
         },{
             'name':'veg noodles',
             'slug':'veg-noodles',
