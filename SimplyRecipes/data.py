@@ -142,6 +142,22 @@ def recipes():
                      'When ready let the fries cool for 5 minutes before serving.'],
             'image':'potato-fries.jpg'
 
+        },{
+            'name':'hot chocolate',
+            'slug':'hot-chocolate',
+            'preptime':'10 mins',
+            'cooktime':'5 mins',
+            'serving':'2 servings',
+            'tags':['drinks','chocolate','milk'],
+            'description':'This adults-only boozy hot chocolate is rich, creamy, and very decadent. With endless varieties of add-ins, you’ll never get tired of trying this chocolatey recipe.',
+            'ingredients':['2 cups whole milk','6 ounces semisweet chocolate, finely chopped',
+                           '3 ounces liquor of choice, such as bourbon, rum, or a cream liqueur',
+                           '1/2 teaspoon vanilla extract','Optional toppings:mini marshmallows or whipped cream, chocolate shavings, sprinkles'],
+            'steps':['Warm the milk in a medium saucepan over medium-low heat until it begins to barely simmer but not boil',
+                     'Add in the chopped chocolate and whisk until combined and smooth, about 5 minutes.',
+                     'Remove from the heat and stir in the liquor, vanilla extract, and salt.',
+                     'Let sit to cool to a safe drinking temperature for about 5 minutes (still hot but not burning). Pour into heatproof mugs. If a skin forms while cooling, just whisk it for a few seconds to reincorporate.'],
+            'image':'hot-chocolate.jpg'
         }
        
     
