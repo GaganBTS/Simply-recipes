@@ -423,7 +423,7 @@ Hero
 */
 
 .hero {
-  height: 40vh;
+  height: 60vh;
   position: relative;
   margin-bottom: 2rem;
   background: url('https://www.linkpicture.com/q/main.jpeg') center/cover no-repeat;
