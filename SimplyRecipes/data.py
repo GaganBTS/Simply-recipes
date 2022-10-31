@@ -167,7 +167,7 @@ def recipes():
             'slug':'fried spring rolls',
             'preptime':'45 mins',
             'cooktime':'40 mins',
-            'servings':'45 servings',
+            'serving':'45 servings',
             'tags':['snacks','chinese','rolls'],
             'description':'Fried spring rolls are filled with juicy shredded pork, cabbage, carrots, and mushrooms to create slender, smooth, and delicate packages. I fry them until golden and the wrappers are shatteringly crispy at first bite.',
             'ingredients':['8 dried shiitake mushrooms','1 pound pork loin or tenderloin',
