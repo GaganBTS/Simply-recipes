@@ -5,6 +5,9 @@ def homepage(request):
     all_recipes = recipes()
     return render(request,'home.html',{'all_recipes':all_recipes})
 
+def products(request):
+    return render(request,'products.html')
+
 def all_recipes(request):
     all_recipes = recipes()
     return render(request,'recipes.html',{'all_recipes':all_recipes})
