@@ -457,7 +457,13 @@ margin-right: auto;
       margin-top:1rem; 
       margin-bottom: 0.7rem;
 }
-
+#products{
+    margin-top: 4%;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4%;
+}
 @media only screen and (min-width: 768px) {
   .hero-text h1 {
     font-size: 4rem;
