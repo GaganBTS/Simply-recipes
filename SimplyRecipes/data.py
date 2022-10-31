@@ -122,6 +122,66 @@ def recipes():
                      'Add cooked noodles. Keep on tossing and stirring till the veggies are mixed well with noodles for a minute or two. Switch off the heat.',
                      'Check the taste and add more salt, black pepper or soy sauce if required to the stir-fried veg noodles.'],
             'image':'vegetable-noodles.jpg'
+        },{
+            'name':'Oven Baked Sweet Potato Fries',
+            'slug':'Oven-Baked-Sweet-Potato-Fries',
+            'preptime':'10 mins',
+            'cooktime':'20 mins',
+            'serving':'4 to 6 servings',
+            'description':'These oven baked sweet potato fries are so addictive! Wedges of sweet potatoes, tossed with oil, sprinkled with spices, and baked at high heat until browned and crispy at the edges.',
+            'tags':['snacks','potato','chinese'],
+            'ingredients':['2 pounds orange fleshed sweet potatoes (about 3 large)','3 tablespoons extra virgin olive oil',
+                           '1 1/2 teaspoons kosher salt','1 to 2 tablespoons spice or spice combination of your '
+                                                         'choice: chipotle powder, smoked paprika, '
+                                                         'Chinese five-spice, pumpkin pie spice, garam masala, '
+                                                         'Cajun seasoning, etc.'],
+            'steps':['Peel the sweet potatoes and cut off the ends. Cut the potatoes in half lengthwise and then, if they are very long, in half crosswise. Cut each piece into 1/4 to 1/2-inch thick wedges.',
+                     'Put the sweet potatoes into a large bowl and add the oil. Mix well to combine. Sprinkle with salt and spices of your choice.',
+                     'Remove the preheated baking sheet from the oven. Carefully spread the sweet potatoes out in a single layer on the baking sheet.',
+                     'Bake for 15 to 25 minutes. After the first 10 minutes, remove the baking sheet from the oven and use tongs to turn over all of the sweet potato pieces.',
+                     'When ready let the fries cool for 5 minutes before serving.'],
+            'image':'potato-fries.jpg'
+
+        },{
+            'name':'hot chocolate',
+            'slug':'hot-chocolate',
+            'preptime':'10 mins',
+            'cooktime':'5 mins',
+            'serving':'2 servings',
+            'tags':['drinks','chocolate','milk'],
+            'description':'This adults-only boozy hot chocolate is rich, creamy, and very decadent. With endless varieties of add-ins, you’ll never get tired of trying this chocolatey recipe.',
+            'ingredients':['2 cups whole milk','6 ounces semisweet chocolate, finely chopped',
+                           '3 ounces liquor of choice, such as bourbon, rum, or a cream liqueur',
+                           '1/2 teaspoon vanilla extract','Optional toppings:'
+                                                          'mini marshmallows or whipped cream, chocolate shavings, '
+                                                          'sprinkles'],
+            'steps':['Warm the milk in a medium saucepan over medium-low heat until it begins to barely simmer but not boil',
+                     'Add in the chopped chocolate and whisk until combined and smooth, about 5 minutes.',
+                     'Remove from the heat and stir in the liquor, vanilla extract, and salt.',
+                     'Let sit to cool to a safe drinking temperature for about 5 minutes (still hot but not burning). '
+                     'Pour into heatproof mugs. If a skin forms while cooling, just whisk it for a few seconds to '
+                     'reincorporate.'],
+            'image':'hot-chocolate.jpg'
+        },{
+            'name':'fried spring rolls',
+            'slug':'fried spring rolls',
+            'preptime':'45 mins',
+            'cooktime':'40 mins',
+            'servings':'45 servings',
+            'tags':['snacks','chinese','rolls'],
+            'description':'Fried spring rolls are filled with juicy shredded pork, cabbage, carrots, and mushrooms to create slender, smooth, and delicate packages. I fry them until golden and the wrappers are shatteringly crispy at first bite.',
+            'ingredients':['8 dried shiitake mushrooms','1 pound pork loin or tenderloin',
+                           '1 tablespoon sesame oil','4 teaspoons soy sauce','1/2 medium head napa cabbage, thinly sliced (about 6 cups)',
+                           '50 to 60 (6-inch) square spring roll wrappers','Chinkiang vinegar or black vinegar, to serve'],
+            'steps':['Set two sheet pans by the stove for you to transfer the meat and vegetables onto. '
+                     'Place the dried mushrooms into a medium bowl. '
+                     'Add enough hot water to cover the mushrooms.',
+                     'Cut the pork against the grain into 1/4-inch thick 2 1/2 to 3-inch long matchsticks and put them into a medium bowl',
+                     'In large nonstick skillet over medium-high heat, add 2 tablespoons of oil. When hot, add the pork and toss to coat with oil.',
+                     'In the same skillet used to cook the carrots, add 1 tablespoon of oil, the napa cabbage, and the remaining 1/2 teaspoon of salt',
+                     'Wrapping spring rolls is basically like wrapping burritos. Place one spring roll wrapper on the board in front of you with the corners facing 3, 6, 9 and 12 o’clock.',
+                     'Working in 3 or 4 batches, gently slide the spring rolls into the hot oil. Cook, stirring occasionally with a spider or large slotted spoon to make sure that all sides are cooking evenly, until the spring rolls are golden brown, 1 1/2-2 minutes.'],
+            'image':'fried-spring-rolls.jpg'
         }
        
     
