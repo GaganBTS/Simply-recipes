@@ -369,6 +369,7 @@ Page
 .page {
   padding-top: 2rem;
   min-height: calc(100vh - (6rem + 4rem));
+  margin-top:5%;
 }
 /*
 =============== 
@@ -597,6 +598,7 @@ About Page
   display: grid;
   gap: 2rem 4rem;
   padding-bottom: 3rem;
+  height:600px;
 }
 .about-img {
   border-radius: var(--borderRadius);
@@ -608,6 +610,7 @@ About Page
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px;
     align-items: center;
+    height:600px;
   }
   .about-img {
     height: 100%;
@@ -820,3 +823,10 @@ Recipe Template
   }
   .contant_box_404{ margin-top:-50px;}
  
+@media only screen and (min-width:150px) and (max-width:768px) {
+
+  .about-page{
+  height:900px !important;
+  }
+
+}
