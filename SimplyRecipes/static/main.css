@@ -846,5 +846,8 @@ Recipe Template
   #a1{
   width:80%;
   }
+  .hero{
+  height:115vh !important;
+  }
 
 }
