@@ -9,5 +9,6 @@ urlpatterns = [
     path('contact',contact,name='contact'),
     path('privacy-policy',privacy,name='privacy'),
     path('terms-and-conditions',terms,name='terms'),
+    path('products',products,name='products'),
     path('recipes/<slug:slug>',single_recipe,name='single_recipe')
 ]
