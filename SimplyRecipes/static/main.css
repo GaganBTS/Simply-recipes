@@ -320,7 +320,20 @@ Navbar
 .contact-link a {
   padding: 0.15rem 1rem;
 }
-
+#a1{
+  text-align:center;
+  width:60%;
+  text-decoration:none;
+  padding:1% 6%;
+  background: #645cff;
+  color:white;
+  font-weight:bold;
+  letter-spacing:1.6px;
+  border-radius:10px;
+}
+#a1:hover{
+  opacity:0.9;
+}
 @media screen and (min-width: 992px) {
   .navbar {
     height: 6rem;
