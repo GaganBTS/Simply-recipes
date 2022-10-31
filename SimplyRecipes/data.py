@@ -158,6 +158,24 @@ def recipes():
                      'Remove from the heat and stir in the liquor, vanilla extract, and salt.',
                      'Let sit to cool to a safe drinking temperature for about 5 minutes (still hot but not burning). Pour into heatproof mugs. If a skin forms while cooling, just whisk it for a few seconds to reincorporate.'],
             'image':'hot-chocolate.jpg'
+        },{
+            'name':'Simple Summer Tomato Salad',
+            'slug':'Simple-Summer-Tomato-Salad',
+            'preptime':'10 mins',
+            'cooktime':'NA',
+            'serving':'4 servings',
+            'tags':['healthy snacks','salad','lunch'],
+            'description':'This simple salad makes the most of juicy tomatoes at the peak of season. Toss ripe tomatoes with a classic vinaigrette, thinly sliced red onion, and a shower of fresh basil and mint. You’ll want to have it on repeat all summer long.',
+            'ingredients':['2 tablespoons red wine vinegar','1 teaspoon Dijon mustard',
+                           '1/4 medium red onion, very thinly sliced',
+                           '1 teaspoon kosher salt','2 pounds ripe tomatoes',
+                           '2 tablespoons fresh mint, chiffonade','Freshly ground black pepper, to taste'],
+            'steps':['In a small bowl, whisk together the vinegar, mustard, and honey until the honey dissolves. Whisk in the olive oil until blended.',
+                     'Add the sliced onions into the vinaigrette and tuck them down into the dressing. Set aside to macerate while you assemble the salad.',
+                     'Trim out the stem and base of the stem from the tomatoes. Cut tomatoes into 1/2-inch-thick slices',
+                     'Arrange the tomatoes on a large plate or medium platter and season both sides with salt. Lightly shower with freshly ground black pepper.',
+                     'Pour the dressing and onions over the salad. Use your hands to gently nestle the tomatoes in the dressing and distribute the onions evenly.'],
+            'image':'tomato-salad.jpg'
         }
        
     
