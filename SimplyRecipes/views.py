@@ -8,6 +8,9 @@ def homepage(request):
 def products(request):
     return render(request,'products.html')
 
+def sitemap(request):
+    return render(request,'sitemap.xml')
+
 def all_recipes(request):
     all_recipes = recipes()
     return render(request,'recipes.html',{'all_recipes':all_recipes})
