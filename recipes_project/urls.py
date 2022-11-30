@@ -15,9 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from django.contrib.sitemaps.views import sitemap
+from SimplyRecipes.sitemaps import *
+from django.views.generic import TemplateView
+sitemaps={
+    'static':StaticViewsSitemap,
+       
+}
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('SimplyRecipes.urls')),
+    path('sitemap.xml',sitemap,{'sitemaps':sitemaps}),
+    path('robots.txt',TemplateView.as_view(template_name='robots.txt',content_type='text/plain')),
 ]
 handler_404 = 'SimplyRecipes.views.page_not_found_view'
