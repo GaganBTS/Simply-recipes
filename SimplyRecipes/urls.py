@@ -11,5 +11,4 @@ urlpatterns = [
     path('terms-and-conditions',terms,name='terms'),
     path('products',products,name='products'),
     path('recipes/<slug:slug>',single_recipe,name='single_recipe'),
-    path('sitemap',sitemap,name='sitemap'),
 ]
